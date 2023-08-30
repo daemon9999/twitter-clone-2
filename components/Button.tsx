@@ -1,6 +1,6 @@
 import React from "react";
 interface ButtonProps {
-  label: string;
+  label?: string;
   secondary?: boolean;
   fullWidth?: boolean;
   large?: boolean;
